@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8fafb"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal"
+        android:background="@color/red1"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Couples, Share
+            \n Shayari Day
+            \nwith your Partners"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:fontFamily="@font/icblod"
+            android:layout_marginTop="36dp"
+            android:layout_marginLeft="24dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/five"
+            android:layout_marginBottom="28dp"/>
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-50dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingVertical="24dp"
+            android:columnCount="2">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_columnWeight="1"
+                android:id="@+id/card1"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardElevation="0.1dp"
+                app:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/rose"
+                        android:scaleType="centerCrop"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rose Day"
+                        android:padding="12dp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_columnWeight="1"
+                android:id="@+id/card2"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardElevation="0.1dp"
+                app:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/propose"
+                        android:scaleType="centerCrop"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Propose Day"
+                        android:padding="12dp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_columnWeight="1"
+                android:id="@+id/card3"
+                android:layout_marginTop="12dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardElevation="0.1dp"
+                app:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/choco"
+                        android:scaleType="centerCrop"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chocolate Day"
+                        android:padding="12dp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_columnWeight="1"
+                android:id="@+id/card4"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardElevation="0.1dp"
+                app:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/teddy"
+                        android:scaleType="centerCrop"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Teddy Day"
+                        android:padding="12dp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_columnWeight="1"
+                android:id="@+id/card5"
+                android:layout_marginTop="12dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardElevation="0.1dp"
+                app:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/promise"
+                        android:scaleType="centerCrop"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Promise Day"
+                        android:padding="12dp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_columnWeight="1"
+                android:id="@+id/card6"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardElevation="0.1dp"
+                app:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/kiss"
+                        android:scaleType="centerCrop"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kiss Day"
+                        android:padding="12dp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_columnWeight="1"
+                android:id="@+id/card7"
+                android:layout_marginTop="12dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardElevation="0.1dp"
+                app:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/hug"
+                        android:scaleType="centerCrop"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hug Day"
+                        android:padding="12dp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_columnWeight="1"
+                android:id="@+id/card8"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardElevation="0.1dp"
+                app:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/valen"
+                        android:scaleType="centerCrop"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Valentine Day"
+                        android:padding="12dp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </GridLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Valentine</string>
+
+    <string name="icblod" tools:ignore="ReferenceType">@font/icblod</string>
+    <string name="icital" tools:ignore="ReferenceType">@font/icitlai</string>
+    <string name="iclight" tools:ignore="ReferenceType">@font/iclight</string>
+    <string name="icmediam" tools:ignore="ReferenceType">@font/icmediam</string>
+
+
+</resources>
